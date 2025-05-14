@@ -6,19 +6,28 @@ A lightweight HTTP proxy forwarder powered by [Deno Deploy](https://deno.com/dep
 
 ---
 
-## 🚀 Deploy to Deno Deploy
+### 🚀 Deploy to Deno Deploy
 
 To deploy this project to Deno Deploy:
 
-1. Go to [Deno Deploy dashboard](https://dash.deno.com/)
-2. Click **"Deploy your own code"**
-3. Select your GitHub account and choose the `deno-proxy-forwarder` repo
-4. Select:
-   - **Build mode**: `No build step`
-   - **Entry point**: `main.ts`
-5. Click **"Create & Deploy"**
+1. **Fork this repository** to your own GitHub account:
 
-> ✅ After deployment, you'll get a public URL like: `https://your-proxy.deno.dev`
+   > Click the top-right “Fork” button on this page.
+
+2. Go to [Deno Deploy dashboard](https://dash.deno.com/)
+
+3. Click **"Deploy your own code"**
+
+4. Select your GitHub account and choose the forked `deno-proxy-forwarder` repo
+
+5. Configure the deployment:
+
+   - **Build mode:** `No build step`
+   - **Entry point:** `main.ts`
+
+6. Click **"Create & Deploy"**
+
+✅ After deployment, you’ll get a public proxy URL, like: `https://your-proxy.deno.dev`
 
 ---
 

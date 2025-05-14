@@ -6,13 +6,19 @@
 
 ---
 
-## 🚀 一键部署
+## 🚀 部署到 Deno Deploy
 
-点击下方按钮，使用你的 Deno Deploy 账户一键 Fork 并部署本项目：
+要将本项目部署到 Deno Deploy，请按以下步骤操作：
 
-[![Deploy to Deno](https://img.shields.io/badge/Deploy%20to-Deno%20Deploy-black?logo=deno&style=for-the-badge)](https://dash.deno.com/new?url=https://github.com/captainLegoo/deno-proxy-forwarder)
+1. 访问 [Deno Deploy 控制台](https://dash.deno.com/)
+2. 点击 **“Deploy your own code”**
+3. 选择你的 GitHub 账户，并选择仓库：`deno-proxy-forwarder`
+4. 选择：
+   - **构建模式（Build mode）**：`No build step`
+   - **入口文件（Entry point）**：`main.ts`
+5. 点击 **“Create & Deploy”** 完成部署
 
-> ✅ 登录后即可部署，并获得一个 URL，例如：`https://your-proxy.deno.dev`
+> ✅ 部署完成后你会获得一个公开的 URL，例如：`https://your-proxy.deno.dev`
 
 ---
 
